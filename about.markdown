@@ -11,7 +11,7 @@ programming, where the possibilities are endless, or are they? With the rise of 
 time before our beloved programming jobs are taken over by soulless machines.
 
 But hey, let's not let that stop us from
-enjoying theart of programming while we can, right? Who needs job security when you have the joy of writing lines of
+enjoying the art of programming while we can, right? Who needs job security when you have the joy of writing lines of
 code all daylong? 
 
 So, grab a cup of tea or coffee and let's embrace the inevitable robot uprising together! 
