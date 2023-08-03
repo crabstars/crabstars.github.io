@@ -29,7 +29,7 @@ Console.WriteLine(evenNumbers.Last());
 Once I made the LINQ equivalent in Rust, the "iter" and "filter" operations do what's called an "immutable borrow" on the List
 (which is a Vec in Rust, but I'll call it List for comparison). This means we can't modify the List anymore because doing so would 
 need another "immutable borrow," which is not allowed. We're only allowed to borrow the data to look at or copy it, but not to make changes after the "immutable borrow".
-If you want to learn something about the Rust Ownership than I recommend the offical [documentation]: [https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html]
+If you want to learn something about the Rust Ownership than I recommend the offical [documentation][rust-docs]
 
 {% highlight rust %}
 fn main() {
@@ -59,3 +59,5 @@ fn main() {
 {% endhighlight %}
 
 In the end, I believe Rust helps you write better and safer code. Once you declare an Iterator for a List, Rust doesn't let you change it, which adds more safety to your programming.
+
+[rust-docs]: [https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html]
