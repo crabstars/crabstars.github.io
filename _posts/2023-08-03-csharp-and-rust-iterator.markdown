@@ -60,4 +60,4 @@ fn main() {
 
 In the end, I believe Rust helps you write better and safer code. Once you declare an Iterator for a List, Rust doesn't let you change it, which adds more safety to your programming.
 
-[rust-docs]: [https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html]
+[rust-docs]: https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html
